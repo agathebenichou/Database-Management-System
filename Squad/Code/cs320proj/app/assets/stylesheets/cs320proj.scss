@@ -1,0 +1,56 @@
+// Place all the styles related to the cs320proj controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.home {
+
+    border-style: solid;
+    border-width: 5px;	
+
+    background-color: white; 
+}
+
+.introduction {
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    border-style: solid;
+    border-width: 5px;	
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    margin-left: 10px;    
+
+    width : 50%;
+}
+
+.graphs {
+
+    margin-left: 10px;  
+
+}
+
+.title {
+    border-radius: 25px;
+    border: 5px solid #73AD21;	
+
+    width : 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box1 {
+    background-color: #d3d3d3;
+}
+
+.box2 {
+    background-color: #d3d3d3;
+}
+
+.box3 {
+    background-color: #d3d3d3;
+}

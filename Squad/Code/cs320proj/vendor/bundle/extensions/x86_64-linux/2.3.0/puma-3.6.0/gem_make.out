@@ -1,0 +1,32 @@
+current directory: /auto/fs_sh2/benichoa/Desktop/cs320-Squad/cs320proj/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
+/usr/local/rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20161129-29407-1uq2j3o.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /auto/fs_sh2/benichoa/Desktop/cs320-Squad/cs320proj/vendor/bundle/extensions/x86_64-linux/2.3.0/puma-3.6.0/mkmf.log
+
+current directory: /auto/fs_sh2/benichoa/Desktop/cs320-Squad/cs320proj/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /auto/fs_sh2/benichoa/Desktop/cs320-Squad/cs320proj/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
+make "DESTDIR="
+compiling io_buffer.c
+compiling puma_http11.c
+compiling mini_ssl.c
+mini_ssl.c: In function ‘engine_init_server’:
+mini_ssl.c:139:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+mini_ssl.c:144:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+mini_ssl.c:166:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+mini_ssl.c:170:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+compiling http11_parser.c
+ext/puma_http11/http11_parser.rl: In function ‘puma_parser_execute’:
+ext/puma_http11/http11_parser.rl:111:3: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+linking shared-object puma/puma_http11.so
+
+current directory: /auto/fs_sh2/benichoa/Desktop/cs320-Squad/cs320proj/vendor/bundle/gems/puma-3.6.0/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -m 0755 puma_http11.so ./.gem.20161129-29407-1fji45x/puma
